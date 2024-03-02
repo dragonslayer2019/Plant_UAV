@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/alan/Plant_UAV/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/alan/Plant_UAV/src/control/include/**",
+        "/home/alan/Plant_UAV/src/rotors_simulator/rotors_control/include/**",
+        "/home/alan/Plant_UAV/src/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/home/alan/Plant_UAV/src/rotors_simulator/rotors_hil_interface/include/**",
+        "/home/alan/Plant_UAV/src/rotors_simulator/rotors_joy_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
