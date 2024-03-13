@@ -294,8 +294,411 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f rotors_simulator/rotors_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make rotors_simulator/rotors_description/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f mav_comm/mav_comm/CMakeFiles/_catkin_empty_exported_target.dir/build.make mav_comm/mav_comm/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_genpy
+
+# Build rule for target.
+mav_state_machine_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_genpy
+.PHONY : mav_state_machine_msgs_genpy
+
+# fast build rule for target.
+mav_state_machine_msgs_genpy/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_genpy.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_genpy.dir/build
+.PHONY : mav_state_machine_msgs_genpy/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_generate_messages
+
+# Build rule for target.
+mav_state_machine_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_generate_messages
+.PHONY : mav_state_machine_msgs_generate_messages
+
+# fast build rule for target.
+mav_state_machine_msgs_generate_messages/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages.dir/build
+.PHONY : mav_state_machine_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_nodejs
+
+# Build rule for target.
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named _mav_state_machine_msgs_generate_messages_check_deps_RunTaskService
+
+# Build rule for target.
+_mav_state_machine_msgs_generate_messages_check_deps_RunTaskService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_state_machine_msgs_generate_messages_check_deps_RunTaskService
+.PHONY : _mav_state_machine_msgs_generate_messages_check_deps_RunTaskService
+
+# fast build rule for target.
+_mav_state_machine_msgs_generate_messages_check_deps_RunTaskService/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/_mav_state_machine_msgs_generate_messages_check_deps_RunTaskService.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/_mav_state_machine_msgs_generate_messages_check_deps_RunTaskService.dir/build
+.PHONY : _mav_state_machine_msgs_generate_messages_check_deps_RunTaskService/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_geneus
+
+# Build rule for target.
+mav_state_machine_msgs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_geneus
+.PHONY : mav_state_machine_msgs_geneus
+
+# fast build rule for target.
+mav_state_machine_msgs_geneus/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_geneus.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_geneus.dir/build
+.PHONY : mav_state_machine_msgs_geneus/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_gencpp
+
+# Build rule for target.
+mav_state_machine_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_gencpp
+.PHONY : mav_state_machine_msgs_gencpp
+
+# fast build rule for target.
+mav_state_machine_msgs_gencpp/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_gencpp.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_gencpp.dir/build
+.PHONY : mav_state_machine_msgs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_generate_messages_py
+
+# Build rule for target.
+mav_state_machine_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_generate_messages_py
+.PHONY : mav_state_machine_msgs_generate_messages_py
+
+# fast build rule for target.
+mav_state_machine_msgs_generate_messages_py/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_py.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_py.dir/build
+.PHONY : mav_state_machine_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_generate_messages_nodejs
+
+# Build rule for target.
+mav_state_machine_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_generate_messages_nodejs
+.PHONY : mav_state_machine_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+mav_state_machine_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_nodejs.dir/build
+.PHONY : mav_state_machine_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named _mav_state_machine_msgs_generate_messages_check_deps_StartStopTask
+
+# Build rule for target.
+_mav_state_machine_msgs_generate_messages_check_deps_StartStopTask: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_state_machine_msgs_generate_messages_check_deps_StartStopTask
+.PHONY : _mav_state_machine_msgs_generate_messages_check_deps_StartStopTask
+
+# fast build rule for target.
+_mav_state_machine_msgs_generate_messages_check_deps_StartStopTask/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/_mav_state_machine_msgs_generate_messages_check_deps_StartStopTask.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/_mav_state_machine_msgs_generate_messages_check_deps_StartStopTask.dir/build
+.PHONY : _mav_state_machine_msgs_generate_messages_check_deps_StartStopTask/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_generate_messages_lisp
+
+# Build rule for target.
+mav_state_machine_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_generate_messages_lisp
+.PHONY : mav_state_machine_msgs_generate_messages_lisp
+
+# fast build rule for target.
+mav_state_machine_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_lisp.dir/build
+.PHONY : mav_state_machine_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_eus
+
+# Build rule for target.
+std_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
+.PHONY : std_msgs_generate_messages_eus
+
+# fast build rule for target.
+std_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_generate_messages_eus
+
+# Build rule for target.
+mav_state_machine_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_generate_messages_eus
+.PHONY : mav_state_machine_msgs_generate_messages_eus
+
+# fast build rule for target.
+mav_state_machine_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_eus.dir/build
+.PHONY : mav_state_machine_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_genlisp
+
+# Build rule for target.
+mav_state_machine_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_genlisp
+.PHONY : mav_state_machine_msgs_genlisp
+
+# fast build rule for target.
+mav_state_machine_msgs_genlisp/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_genlisp.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_genlisp.dir/build
+.PHONY : mav_state_machine_msgs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_generate_messages_cpp
+
+# Build rule for target.
+mav_state_machine_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_generate_messages_cpp
+.PHONY : mav_state_machine_msgs_generate_messages_cpp
+
+# fast build rule for target.
+mav_state_machine_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/build
+.PHONY : mav_state_machine_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named mav_state_machine_msgs_gennodejs
+
+# Build rule for target.
+mav_state_machine_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_state_machine_msgs_gennodejs
+.PHONY : mav_state_machine_msgs_gennodejs
+
+# fast build rule for target.
+mav_state_machine_msgs_gennodejs/fast:
+	$(MAKE) -f mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_gennodejs.dir/build.make mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_gennodejs.dir/build
+.PHONY : mav_state_machine_msgs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_generate_messages_eus
+
+# Build rule for target.
+mav_system_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_generate_messages_eus
+.PHONY : mav_system_msgs_generate_messages_eus
+
+# fast build rule for target.
+mav_system_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_eus.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_eus.dir/build
+.PHONY : mav_system_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_gencpp
+
+# Build rule for target.
+mav_system_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_gencpp
+.PHONY : mav_system_msgs_gencpp
+
+# fast build rule for target.
+mav_system_msgs_gencpp/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_gencpp.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_gencpp.dir/build
+.PHONY : mav_system_msgs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_system_msgs_generate_messages_check_deps_ProcessInfo
+
+# Build rule for target.
+_mav_system_msgs_generate_messages_check_deps_ProcessInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_system_msgs_generate_messages_check_deps_ProcessInfo
+.PHONY : _mav_system_msgs_generate_messages_check_deps_ProcessInfo
+
+# fast build rule for target.
+_mav_system_msgs_generate_messages_check_deps_ProcessInfo/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/_mav_system_msgs_generate_messages_check_deps_ProcessInfo.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/_mav_system_msgs_generate_messages_check_deps_ProcessInfo.dir/build
+.PHONY : _mav_system_msgs_generate_messages_check_deps_ProcessInfo/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_gennodejs
+
+# Build rule for target.
+mav_system_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_gennodejs
+.PHONY : mav_system_msgs_gennodejs
+
+# fast build rule for target.
+mav_system_msgs_gennodejs/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_gennodejs.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_gennodejs.dir/build
+.PHONY : mav_system_msgs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_generate_messages
+
+# Build rule for target.
+mav_system_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_generate_messages
+.PHONY : mav_system_msgs_generate_messages
+
+# fast build rule for target.
+mav_system_msgs_generate_messages/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages.dir/build
+.PHONY : mav_system_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_generate_messages_cpp
+
+# Build rule for target.
+mav_system_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_generate_messages_cpp
+.PHONY : mav_system_msgs_generate_messages_cpp
+
+# fast build rule for target.
+mav_system_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_cpp.dir/build
+.PHONY : mav_system_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_system_msgs_generate_messages_check_deps_CpuInfo
+
+# Build rule for target.
+_mav_system_msgs_generate_messages_check_deps_CpuInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_system_msgs_generate_messages_check_deps_CpuInfo
+.PHONY : _mav_system_msgs_generate_messages_check_deps_CpuInfo
+
+# fast build rule for target.
+_mav_system_msgs_generate_messages_check_deps_CpuInfo/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/_mav_system_msgs_generate_messages_check_deps_CpuInfo.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/_mav_system_msgs_generate_messages_check_deps_CpuInfo.dir/build
+.PHONY : _mav_system_msgs_generate_messages_check_deps_CpuInfo/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_generate_messages_lisp
+
+# Build rule for target.
+mav_system_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_generate_messages_lisp
+.PHONY : mav_system_msgs_generate_messages_lisp
+
+# fast build rule for target.
+mav_system_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_lisp.dir/build
+.PHONY : mav_system_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_generate_messages_nodejs
+
+# Build rule for target.
+mav_system_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_generate_messages_nodejs
+.PHONY : mav_system_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+mav_system_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_nodejs.dir/build
+.PHONY : mav_system_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_geneus
+
+# Build rule for target.
+mav_system_msgs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_geneus
+.PHONY : mav_system_msgs_geneus
+
+# fast build rule for target.
+mav_system_msgs_geneus/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_geneus.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_geneus.dir/build
+.PHONY : mav_system_msgs_geneus/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_genlisp
+
+# Build rule for target.
+mav_system_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_genlisp
+.PHONY : mav_system_msgs_genlisp
+
+# fast build rule for target.
+mav_system_msgs_genlisp/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_genlisp.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_genlisp.dir/build
+.PHONY : mav_system_msgs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_generate_messages_py
+
+# Build rule for target.
+mav_system_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_generate_messages_py
+.PHONY : mav_system_msgs_generate_messages_py
+
+# fast build rule for target.
+mav_system_msgs_generate_messages_py/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_py.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_generate_messages_py.dir/build
+.PHONY : mav_system_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named mav_system_msgs_genpy
+
+# Build rule for target.
+mav_system_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_system_msgs_genpy
+.PHONY : mav_system_msgs_genpy
+
+# fast build rule for target.
+mav_system_msgs_genpy/fast:
+	$(MAKE) -f mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_genpy.dir/build.make mav_comm/mav_system_msgs/CMakeFiles/mav_system_msgs_genpy.dir/build
+.PHONY : mav_system_msgs_genpy/fast
 
 #=============================================================================
 # Target rules for targets named rotors_comm_gennodejs
@@ -324,69 +727,17 @@ rotors_comm_generate_messages_lisp/fast:
 .PHONY : rotors_comm_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named _rotors_comm_generate_messages_check_deps_WindSpeed
+# Target rules for targets named rotors_comm_geneus
 
 # Build rule for target.
-_rotors_comm_generate_messages_check_deps_WindSpeed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_WindSpeed
-.PHONY : _rotors_comm_generate_messages_check_deps_WindSpeed
+rotors_comm_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_comm_geneus
+.PHONY : rotors_comm_geneus
 
 # fast build rule for target.
-_rotors_comm_generate_messages_check_deps_WindSpeed/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_WindSpeed.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_WindSpeed.dir/build
-.PHONY : _rotors_comm_generate_messages_check_deps_WindSpeed/fast
-
-#=============================================================================
-# Target rules for targets named _rotors_comm_generate_messages_check_deps_Octomap
-
-# Build rule for target.
-_rotors_comm_generate_messages_check_deps_Octomap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_Octomap
-.PHONY : _rotors_comm_generate_messages_check_deps_Octomap
-
-# fast build rule for target.
-_rotors_comm_generate_messages_check_deps_Octomap/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build
-.PHONY : _rotors_comm_generate_messages_check_deps_Octomap/fast
-
-#=============================================================================
-# Target rules for targets named rotors_comm_gencpp
-
-# Build rule for target.
-rotors_comm_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_comm_gencpp
-.PHONY : rotors_comm_gencpp
-
-# fast build rule for target.
-rotors_comm_gencpp/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_gencpp.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_gencpp.dir/build
-.PHONY : rotors_comm_gencpp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_nodejs
-
-# Build rule for target.
-geometry_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
+rotors_comm_geneus/fast:
+	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_geneus.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_geneus.dir/build
+.PHONY : rotors_comm_geneus/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
@@ -480,6 +831,19 @@ geometry_msgs_generate_messages_cpp/fast:
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geometry_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geometry_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+.PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -493,32 +857,6 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named _rotors_comm_generate_messages_check_deps_RecordRosbag
-
-# Build rule for target.
-_rotors_comm_generate_messages_check_deps_RecordRosbag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_RecordRosbag
-.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag
-
-# fast build rule for target.
-_rotors_comm_generate_messages_check_deps_RecordRosbag/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build
-.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_eus
-
-# Build rule for target.
-std_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-#=============================================================================
 # Target rules for targets named octomap_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -530,19 +868,6 @@ octomap_msgs_generate_messages_nodejs: cmake_check_build_system
 octomap_msgs_generate_messages_nodejs/fast:
 	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
 .PHONY : octomap_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
-
-# Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named rotors_comm_genpy
@@ -571,45 +896,6 @@ octomap_msgs_generate_messages_eus/fast:
 .PHONY : octomap_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_nodejs
-
-# Build rule for target.
-std_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named rotors_comm_geneus
-
-# Build rule for target.
-rotors_comm_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_comm_geneus
-.PHONY : rotors_comm_geneus
-
-# fast build rule for target.
-rotors_comm_geneus/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_geneus.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_geneus.dir/build
-.PHONY : rotors_comm_geneus/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_py
-
-# Build rule for target.
-std_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named octomap_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -621,6 +907,19 @@ octomap_msgs_generate_messages_lisp: cmake_check_build_system
 octomap_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
 .PHONY : octomap_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rotors_comm_gencpp
+
+# Build rule for target.
+rotors_comm_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_comm_gencpp
+.PHONY : rotors_comm_gencpp
+
+# fast build rule for target.
+rotors_comm_gencpp/fast:
+	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_gencpp.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_gencpp.dir/build
+.PHONY : rotors_comm_gencpp/fast
 
 #=============================================================================
 # Target rules for targets named octomap_msgs_generate_messages_py
@@ -636,6 +935,19 @@ octomap_msgs_generate_messages_py/fast:
 .PHONY : octomap_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named _rotors_comm_generate_messages_check_deps_Octomap
+
+# Build rule for target.
+_rotors_comm_generate_messages_check_deps_Octomap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_Octomap
+.PHONY : _rotors_comm_generate_messages_check_deps_Octomap
+
+# fast build rule for target.
+_rotors_comm_generate_messages_check_deps_Octomap/fast:
+	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_Octomap.dir/build
+.PHONY : _rotors_comm_generate_messages_check_deps_Octomap/fast
+
+#=============================================================================
 # Target rules for targets named rotors_comm_generate_messages_py
 
 # Build rule for target.
@@ -647,19 +959,6 @@ rotors_comm_generate_messages_py: cmake_check_build_system
 rotors_comm_generate_messages_py/fast:
 	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_generate_messages_py.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_generate_messages_py.dir/build
 .PHONY : rotors_comm_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rotors_comm_generate_messages_cpp
-
-# Build rule for target.
-rotors_comm_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_comm_generate_messages_cpp
-.PHONY : rotors_comm_generate_messages_cpp
-
-# fast build rule for target.
-rotors_comm_generate_messages_cpp/fast:
-	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_generate_messages_cpp.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_generate_messages_cpp.dir/build
-.PHONY : rotors_comm_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named rotors_comm_generate_messages
@@ -675,160 +974,56 @@ rotors_comm_generate_messages/fast:
 .PHONY : rotors_comm_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named control
+# Target rules for targets named rotors_comm_generate_messages_cpp
 
 # Build rule for target.
-control: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 control
-.PHONY : control
+rotors_comm_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_comm_generate_messages_cpp
+.PHONY : rotors_comm_generate_messages_cpp
 
 # fast build rule for target.
-control/fast:
-	$(MAKE) -f control/CMakeFiles/control.dir/build.make control/CMakeFiles/control.dir/build
-.PHONY : control/fast
+rotors_comm_generate_messages_cpp/fast:
+	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_generate_messages_cpp.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/rotors_comm_generate_messages_cpp.dir/build
+.PHONY : rotors_comm_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_py
+# Target rules for targets named _rotors_comm_generate_messages_check_deps_RecordRosbag
 
 # Build rule for target.
-std_srvs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
-.PHONY : std_srvs_generate_messages_py
+_rotors_comm_generate_messages_check_deps_RecordRosbag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_RecordRosbag
+.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag
 
 # fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/std_srvs_generate_messages_py.dir/build.make control/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
+_rotors_comm_generate_messages_check_deps_RecordRosbag/fast:
+	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_RecordRosbag.dir/build
+.PHONY : _rotors_comm_generate_messages_check_deps_RecordRosbag/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_nodejs
+# Target rules for targets named _rotors_comm_generate_messages_check_deps_WindSpeed
 
 # Build rule for target.
-std_srvs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
-.PHONY : std_srvs_generate_messages_nodejs
+_rotors_comm_generate_messages_check_deps_WindSpeed: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _rotors_comm_generate_messages_check_deps_WindSpeed
+.PHONY : _rotors_comm_generate_messages_check_deps_WindSpeed
 
 # fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make control/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
+_rotors_comm_generate_messages_check_deps_WindSpeed/fast:
+	$(MAKE) -f rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_WindSpeed.dir/build.make rotors_simulator/rotors_comm/CMakeFiles/_rotors_comm_generate_messages_check_deps_WindSpeed.dir/build
+.PHONY : _rotors_comm_generate_messages_check_deps_WindSpeed/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_lisp
+# Target rules for targets named mav_msgs_geneus
 
 # Build rule for target.
-std_srvs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
-.PHONY : std_srvs_generate_messages_lisp
+mav_msgs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_geneus
+.PHONY : mav_msgs_geneus
 
 # fast build rule for target.
-std_srvs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make control/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-.PHONY : std_srvs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_msgs_generate_messages_lisp
-
-# Build rule for target.
-actionlib_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_lisp
-.PHONY : actionlib_msgs_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make control/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_eus
-
-# Build rule for target.
-std_srvs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
-.PHONY : std_srvs_generate_messages_eus
-
-# fast build rule for target.
-std_srvs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make control/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-.PHONY : std_srvs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_lisp
-
-# Build rule for target.
-sensor_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make control/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_cpp
-
-# Build rule for target.
-sensor_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make control/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_py
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_nodejs
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_nodejs
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_py
-
-# Build rule for target.
-gazebo_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_py
-.PHONY : gazebo_msgs_generate_messages_py
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make control/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
-.PHONY : gazebo_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_py
-
-# Build rule for target.
-trajectory_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make control/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
+mav_msgs_geneus/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_geneus.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_geneus.dir/build
+.PHONY : mav_msgs_geneus/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_nodejs
@@ -840,229 +1035,47 @@ actionlib_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make control/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+# Target rules for targets named trajectory_msgs_generate_messages_py
 
 # Build rule for target.
-rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
-.PHONY : rosgraph_msgs_generate_messages_lisp
+trajectory_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
+.PHONY : trajectory_msgs_generate_messages_py
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+trajectory_msgs_generate_messages_py/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_eus
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_FilteredSensorData
 
 # Build rule for target.
-sensor_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
-.PHONY : sensor_msgs_generate_messages_eus
+_mav_msgs_generate_messages_check_deps_FilteredSensorData: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_FilteredSensorData
+.PHONY : _mav_msgs_generate_messages_check_deps_FilteredSensorData
 
 # fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make control/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
+_mav_msgs_generate_messages_check_deps_FilteredSensorData/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_FilteredSensorData.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_FilteredSensorData.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_FilteredSensorData/fast
 
 #=============================================================================
-# Target rules for targets named mav_msgs_generate_messages_py
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_RateThrust
 
 # Build rule for target.
-mav_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_py
-.PHONY : mav_msgs_generate_messages_py
+_mav_msgs_generate_messages_check_deps_RateThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_RateThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_RateThrust
 
 # fast build rule for target.
-mav_msgs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/mav_msgs_generate_messages_py.dir/build.make control/CMakeFiles/mav_msgs_generate_messages_py.dir/build
-.PHONY : mav_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_eus
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_cpp
-
-# Build rule for target.
-std_srvs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
-.PHONY : std_srvs_generate_messages_cpp
-
-# fast build rule for target.
-std_srvs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make control/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-.PHONY : std_srvs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_msgs_generate_messages_cpp
-
-# Build rule for target.
-actionlib_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_cpp
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make control/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_nodejs
-
-# Build rule for target.
-sensor_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make control/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_cpp
-
-# Build rule for target.
-roscpp_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make control/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_cpp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_py
-
-# Build rule for target.
-sensor_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make control/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_nodejs
-
-# Build rule for target.
-trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_nodejs
-.PHONY : trajectory_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make control/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
-.PHONY : trajectory_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_nodejs
-
-# Build rule for target.
-gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_nodejs
-.PHONY : gazebo_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make control/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
-.PHONY : gazebo_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_lisp
-
-# Build rule for target.
-gazebo_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_lisp
-.PHONY : gazebo_msgs_generate_messages_lisp
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make control/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
-.PHONY : gazebo_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_lisp
-
-# Build rule for target.
-roscpp_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_lisp
-
-# Build rule for target.
-nav_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
-.PHONY : nav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_eus
-
-# Build rule for target.
-roscpp_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/roscpp_generate_messages_eus.dir/build.make control/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_nodejs
-
-# Build rule for target.
-roscpp_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_nodejs
-.PHONY : roscpp_generate_messages_nodejs
-
-# fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
+_mav_msgs_generate_messages_check_deps_RateThrust/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_RateThrust.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_RateThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_RateThrust/fast
 
 #=============================================================================
 # Target rules for targets named nav_msgs_generate_messages_py
@@ -1074,151 +1087,8 @@ nav_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make control/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_eus
-
-# Build rule for target.
-trajectory_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make control/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_py
-
-# Build rule for target.
-roscpp_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/roscpp_generate_messages_py.dir/build.make control/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named mav_msgs_generate_messages_eus
-
-# Build rule for target.
-mav_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_eus
-.PHONY : mav_msgs_generate_messages_eus
-
-# fast build rule for target.
-mav_msgs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/mav_msgs_generate_messages_eus.dir/build.make control/CMakeFiles/mav_msgs_generate_messages_eus.dir/build
-.PHONY : mav_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named mav_msgs_generate_messages_lisp
-
-# Build rule for target.
-mav_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_lisp
-.PHONY : mav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-mav_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/mav_msgs_generate_messages_lisp.dir/build.make control/CMakeFiles/mav_msgs_generate_messages_lisp.dir/build
-.PHONY : mav_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_lisp
-
-# Build rule for target.
-trajectory_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
-.PHONY : trajectory_msgs_generate_messages_lisp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f control/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make control/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named mav_msgs_generate_messages_nodejs
-
-# Build rule for target.
-mav_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_nodejs
-.PHONY : mav_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-mav_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build.make control/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build
-.PHONY : mav_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_cpp
-
-# Build rule for target.
-trajectory_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
-.PHONY : trajectory_msgs_generate_messages_cpp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make control/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_eus
-
-# Build rule for target.
-gazebo_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_eus
-.PHONY : gazebo_msgs_generate_messages_eus
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make control/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
-.PHONY : gazebo_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_cpp
-
-# Build rule for target.
-nav_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
-.PHONY : nav_msgs_generate_messages_cpp
-
-# fast build rule for target.
-nav_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make control/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-.PHONY : nav_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_msgs_generate_messages_cpp
-
-# Build rule for target.
-gazebo_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_cpp
-.PHONY : gazebo_msgs_generate_messages_cpp
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make control/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
-.PHONY : gazebo_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_eus
-
-# Build rule for target.
-nav_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_eus
-.PHONY : nav_msgs_generate_messages_eus
-
-# fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make control/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named nav_msgs_generate_messages_nodejs
@@ -1230,34 +1100,60 @@ nav_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f control/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make control/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named actionlib_msgs_generate_messages_eus
+# Target rules for targets named mav_msgs_genpy
 
 # Build rule for target.
-actionlib_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_eus
-.PHONY : actionlib_msgs_generate_messages_eus
+mav_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_genpy
+.PHONY : mav_msgs_genpy
 
 # fast build rule for target.
-actionlib_msgs_generate_messages_eus/fast:
-	$(MAKE) -f control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make control/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-.PHONY : actionlib_msgs_generate_messages_eus/fast
+mav_msgs_genpy/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_genpy.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_genpy.dir/build
+.PHONY : mav_msgs_genpy/fast
 
 #=============================================================================
-# Target rules for targets named mav_msgs_generate_messages_cpp
+# Target rules for targets named nav_msgs_generate_messages_lisp
 
 # Build rule for target.
-mav_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_cpp
-.PHONY : mav_msgs_generate_messages_cpp
+nav_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
+.PHONY : nav_msgs_generate_messages_lisp
 
 # fast build rule for target.
-mav_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f control/CMakeFiles/mav_msgs_generate_messages_cpp.dir/build.make control/CMakeFiles/mav_msgs_generate_messages_cpp.dir/build
-.PHONY : mav_msgs_generate_messages_cpp/fast
+nav_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_eus
+
+# Build rule for target.
+nav_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_eus
+.PHONY : nav_msgs_generate_messages_eus
+
+# fast build rule for target.
+nav_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+.PHONY : nav_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_lisp
+
+# Build rule for target.
+actionlib_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_lisp
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_py
@@ -1269,34 +1165,775 @@ actionlib_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	$(MAKE) -f control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make control/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named roll_pitch_yawrate_thrust_controller
+# Target rules for targets named mav_msgs_generate_messages_cpp
 
 # Build rule for target.
-roll_pitch_yawrate_thrust_controller: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roll_pitch_yawrate_thrust_controller
-.PHONY : roll_pitch_yawrate_thrust_controller
+mav_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_cpp
+.PHONY : mav_msgs_generate_messages_cpp
 
 # fast build rule for target.
-roll_pitch_yawrate_thrust_controller/fast:
-	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/build
-.PHONY : roll_pitch_yawrate_thrust_controller/fast
+mav_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_cpp.dir/build
+.PHONY : mav_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named roll_pitch_yawrate_thrust_controller_node
+# Target rules for targets named actionlib_msgs_generate_messages_eus
 
 # Build rule for target.
-roll_pitch_yawrate_thrust_controller_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roll_pitch_yawrate_thrust_controller_node
-.PHONY : roll_pitch_yawrate_thrust_controller_node
+actionlib_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_eus
+.PHONY : actionlib_msgs_generate_messages_eus
 
 # fast build rule for target.
-roll_pitch_yawrate_thrust_controller_node/fast:
-	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build
-.PHONY : roll_pitch_yawrate_thrust_controller_node/fast
+actionlib_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+.PHONY : actionlib_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_eus
+
+# Build rule for target.
+trajectory_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
+.PHONY : trajectory_msgs_generate_messages_eus
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+.PHONY : trajectory_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_GpsWaypoint
+
+# Build rule for target.
+_mav_msgs_generate_messages_check_deps_GpsWaypoint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_GpsWaypoint
+.PHONY : _mav_msgs_generate_messages_check_deps_GpsWaypoint
+
+# fast build rule for target.
+_mav_msgs_generate_messages_check_deps_GpsWaypoint/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_GpsWaypoint.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_GpsWaypoint.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_GpsWaypoint/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_cpp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
+.PHONY : trajectory_msgs_generate_messages_cpp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+.PHONY : trajectory_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_gencpp
+
+# Build rule for target.
+mav_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_gencpp
+.PHONY : mav_msgs_gencpp
+
+# fast build rule for target.
+mav_msgs_gencpp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_gencpp.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_gencpp.dir/build
+.PHONY : mav_msgs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_Actuators
+
+# Build rule for target.
+_mav_msgs_generate_messages_check_deps_Actuators: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_Actuators
+.PHONY : _mav_msgs_generate_messages_check_deps_Actuators
+
+# fast build rule for target.
+_mav_msgs_generate_messages_check_deps_Actuators/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_Actuators.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_Actuators.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_Actuators/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_nodejs
+
+# Build rule for target.
+trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_nodejs
+.PHONY : trajectory_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+.PHONY : trajectory_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_lisp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
+.PHONY : trajectory_msgs_generate_messages_lisp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_msgs/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+.PHONY : trajectory_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_generate_messages_lisp
+
+# Build rule for target.
+mav_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_lisp
+.PHONY : mav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+mav_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_lisp.dir/build
+.PHONY : mav_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_generate_messages
+
+# Build rule for target.
+mav_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages
+.PHONY : mav_msgs_generate_messages
+
+# fast build rule for target.
+mav_msgs_generate_messages/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages.dir/build
+.PHONY : mav_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_cpp
+
+# Build rule for target.
+nav_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
+.PHONY : nav_msgs_generate_messages_cpp
+
+# fast build rule for target.
+nav_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_msgs/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+.PHONY : nav_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
+
+# Build rule for target.
+_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
+
+# fast build rule for target.
+_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_cpp
+
+# Build rule for target.
+actionlib_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_cpp
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_TorqueThrust
+
+# Build rule for target.
+_mav_msgs_generate_messages_check_deps_TorqueThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_TorqueThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_TorqueThrust
+
+# fast build rule for target.
+_mav_msgs_generate_messages_check_deps_TorqueThrust/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_TorqueThrust.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_TorqueThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_TorqueThrust/fast
+
+#=============================================================================
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_Status
+
+# Build rule for target.
+_mav_msgs_generate_messages_check_deps_Status: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_Status
+.PHONY : _mav_msgs_generate_messages_check_deps_Status
+
+# fast build rule for target.
+_mav_msgs_generate_messages_check_deps_Status/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_Status.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_Status.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_Status/fast
+
+#=============================================================================
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_AttitudeThrust
+
+# Build rule for target.
+_mav_msgs_generate_messages_check_deps_AttitudeThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_AttitudeThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_AttitudeThrust
+
+# fast build rule for target.
+_mav_msgs_generate_messages_check_deps_AttitudeThrust/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_AttitudeThrust.dir/build.make mav_comm/mav_msgs/CMakeFiles/_mav_msgs_generate_messages_check_deps_AttitudeThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_AttitudeThrust/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_generate_messages_eus
+
+# Build rule for target.
+mav_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_eus
+.PHONY : mav_msgs_generate_messages_eus
+
+# fast build rule for target.
+mav_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/build
+.PHONY : mav_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_genlisp
+
+# Build rule for target.
+mav_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_genlisp
+.PHONY : mav_msgs_genlisp
+
+# fast build rule for target.
+mav_msgs_genlisp/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_genlisp.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_genlisp.dir/build
+.PHONY : mav_msgs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_generate_messages_nodejs
+
+# Build rule for target.
+mav_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_nodejs
+.PHONY : mav_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+mav_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build
+.PHONY : mav_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_gennodejs
+
+# Build rule for target.
+mav_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_gennodejs
+.PHONY : mav_msgs_gennodejs
+
+# fast build rule for target.
+mav_msgs_gennodejs/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_gennodejs.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_gennodejs.dir/build
+.PHONY : mav_msgs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_generate_messages_py
+
+# Build rule for target.
+mav_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_py
+.PHONY : mav_msgs_generate_messages_py
+
+# fast build rule for target.
+mav_msgs_generate_messages_py/fast:
+	$(MAKE) -f mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_py.dir/build.make mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_py.dir/build
+.PHONY : mav_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_gennodejs
+
+# Build rule for target.
+mav_planning_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_gennodejs
+.PHONY : mav_planning_msgs_gennodejs
+
+# fast build rule for target.
+mav_planning_msgs_gennodejs/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_gennodejs.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_gennodejs.dir/build
+.PHONY : mav_planning_msgs_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_generate_messages_nodejs
+
+# Build rule for target.
+mav_planning_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages_nodejs
+.PHONY : mav_planning_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+mav_planning_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_nodejs.dir/build
+.PHONY : mav_planning_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_generate_messages_eus
+
+# Build rule for target.
+mav_planning_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages_eus
+.PHONY : mav_planning_msgs_generate_messages_eus
+
+# fast build rule for target.
+mav_planning_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_eus.dir/build
+.PHONY : mav_planning_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolygonService
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolygonService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolygonService
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonService
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolygonService/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonService/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
+
+# Build rule for target.
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_generate_messages_cpp
+
+# Build rule for target.
+mav_planning_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages_cpp
+.PHONY : mav_planning_msgs_generate_messages_cpp
+
+# fast build rule for target.
+mav_planning_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_cpp.dir/build
+.PHONY : mav_planning_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_genlisp
+
+# Build rule for target.
+mav_planning_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_genlisp
+.PHONY : mav_planning_msgs_genlisp
+
+# fast build rule for target.
+mav_planning_msgs_genlisp/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_genlisp.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_genlisp.dir/build
+.PHONY : mav_planning_msgs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_ChangeNameService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_generate_messages_py
+
+# Build rule for target.
+mav_planning_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages_py
+.PHONY : mav_planning_msgs_generate_messages_py
+
+# fast build rule for target.
+mav_planning_msgs_generate_messages_py/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_py.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_py.dir/build
+.PHONY : mav_planning_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_geneus
+
+# Build rule for target.
+mav_planning_msgs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_geneus
+.PHONY : mav_planning_msgs_geneus
+
+# fast build rule for target.
+mav_planning_msgs_geneus/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_geneus.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_geneus.dir/build
+.PHONY : mav_planning_msgs_geneus/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_gencpp
+
+# Build rule for target.
+mav_planning_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_gencpp
+.PHONY : mav_planning_msgs_gencpp
+
+# fast build rule for target.
+mav_planning_msgs_gencpp/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_gencpp.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_gencpp.dir/build
+.PHONY : mav_planning_msgs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_genpy
+
+# Build rule for target.
+mav_planning_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_genpy
+.PHONY : mav_planning_msgs_genpy
+
+# fast build rule for target.
+mav_planning_msgs_genpy/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_genpy.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_genpy.dir/build
+.PHONY : mav_planning_msgs_genpy/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_generate_messages_lisp
+
+# Build rule for target.
+mav_planning_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages_lisp
+.PHONY : mav_planning_msgs_generate_messages_lisp
+
+# fast build rule for target.
+mav_planning_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages_lisp.dir/build
+.PHONY : mav_planning_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_Point2D
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_Point2D: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_Point2D
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_Point2D
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_Point2D/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Point2D.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_Point2D/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PlannerService
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PlannerService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PlannerService
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PlannerService
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PlannerService/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PlannerService/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D/fast
+
+#=============================================================================
+# Target rules for targets named mav_planning_msgs_generate_messages
+
+# Build rule for target.
+mav_planning_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_planning_msgs_generate_messages
+.PHONY : mav_planning_msgs_generate_messages
+
+# fast build rule for target.
+mav_planning_msgs_generate_messages/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/mav_planning_msgs_generate_messages.dir/build
+.PHONY : mav_planning_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_Polygon2D
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_Polygon2D: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_Polygon2D
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_Polygon2D
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_Polygon2D/fast:
+	$(MAKE) -f mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Polygon2D.dir/build.make mav_comm/mav_planning_msgs/CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_Polygon2D.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_Polygon2D/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_py
+
+# Build rule for target.
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_py.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_nodejs
+
+# Build rule for target.
+roscpp_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_nodejs
+.PHONY : roscpp_generate_messages_nodejs
+
+# fast build rule for target.
+roscpp_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+.PHONY : roscpp_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_eus
+
+# Build rule for target.
+roscpp_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_eus.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_eus
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_eus
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_eus/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+.PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_nodejs
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_nodejs
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_py
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_lisp
+
+# Build rule for target.
+roscpp_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named lee_position_controller
@@ -1312,6 +1949,19 @@ lee_position_controller/fast:
 .PHONY : lee_position_controller/fast
 
 #=============================================================================
+# Target rules for targets named roll_pitch_yawrate_thrust_controller
+
+# Build rule for target.
+roll_pitch_yawrate_thrust_controller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roll_pitch_yawrate_thrust_controller
+.PHONY : roll_pitch_yawrate_thrust_controller
+
+# fast build rule for target.
+roll_pitch_yawrate_thrust_controller/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/build
+.PHONY : roll_pitch_yawrate_thrust_controller/fast
+
+#=============================================================================
 # Target rules for targets named lee_position_controller_node
 
 # Build rule for target.
@@ -1323,6 +1973,32 @@ lee_position_controller_node: cmake_check_build_system
 lee_position_controller_node/fast:
 	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/build.make rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/build
 .PHONY : lee_position_controller_node/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rotors_simulator/rotors_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roll_pitch_yawrate_thrust_controller_node
+
+# Build rule for target.
+roll_pitch_yawrate_thrust_controller_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roll_pitch_yawrate_thrust_controller_node
+.PHONY : roll_pitch_yawrate_thrust_controller_node
+
+# fast build rule for target.
+roll_pitch_yawrate_thrust_controller_node/fast:
+	$(MAKE) -f rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build.make rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/build
+.PHONY : roll_pitch_yawrate_thrust_controller_node/fast
 
 #=============================================================================
 # Target rules for targets named rotors_joy_interface
@@ -1754,19 +2430,6 @@ tf2_msgs_generate_messages_py/fast:
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named LiftDragPlugin
-
-# Build rule for target.
-LiftDragPlugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LiftDragPlugin
-.PHONY : LiftDragPlugin
-
-# fast build rule for target.
-LiftDragPlugin/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build
-.PHONY : LiftDragPlugin/fast
-
-#=============================================================================
 # Target rules for targets named rotors_gazebo_wind_plugin
 
 # Build rule for target.
@@ -1832,58 +2495,6 @@ rotors_gazebo_motor_model/fast:
 .PHONY : rotors_gazebo_motor_model/fast
 
 #=============================================================================
-# Target rules for targets named bond_generate_messages_nodejs
-
-# Build rule for target.
-bond_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_nodejs
-.PHONY : bond_generate_messages_nodejs
-
-# fast build rule for target.
-bond_generate_messages_nodejs/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build
-.PHONY : bond_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named nodelet_generate_messages_py
-
-# Build rule for target.
-nodelet_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_py
-.PHONY : nodelet_generate_messages_py
-
-# fast build rule for target.
-nodelet_generate_messages_py/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build
-.PHONY : nodelet_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
-
-# Build rule for target.
-dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named tf_generate_messages_py
-
-# Build rule for target.
-tf_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_py
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named rotors_gazebo_noisydepth_plugin
 
 # Build rule for target.
@@ -1895,19 +2506,6 @@ rotors_gazebo_noisydepth_plugin: cmake_check_build_system
 rotors_gazebo_noisydepth_plugin/fast:
 	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_noisydepth_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_noisydepth_plugin.dir/build
 .PHONY : rotors_gazebo_noisydepth_plugin/fast
-
-#=============================================================================
-# Target rules for targets named bond_generate_messages_lisp
-
-# Build rule for target.
-bond_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_lisp
-.PHONY : bond_generate_messages_lisp
-
-# fast build rule for target.
-bond_generate_messages_lisp/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build
-.PHONY : bond_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named rotors_gazebo_imu_plugin
@@ -1923,108 +2521,199 @@ rotors_gazebo_imu_plugin/fast:
 .PHONY : rotors_gazebo_imu_plugin/fast
 
 #=============================================================================
-# Target rules for targets named bond_generate_messages_eus
+# Target rules for targets named rotors_gazebo_controller_interface
 
 # Build rule for target.
-bond_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_eus
-.PHONY : bond_generate_messages_eus
+rotors_gazebo_controller_interface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_controller_interface
+.PHONY : rotors_gazebo_controller_interface
 
 # fast build rule for target.
-bond_generate_messages_eus/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build
-.PHONY : bond_generate_messages_eus/fast
+rotors_gazebo_controller_interface/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build
+.PHONY : rotors_gazebo_controller_interface/fast
 
 #=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_nodejs
+# Target rules for targets named rotors_gazebo_bag_plugin
 
 # Build rule for target.
-dynamic_reconfigure_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_nodejs
-.PHONY : dynamic_reconfigure_generate_messages_nodejs
+rotors_gazebo_bag_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_bag_plugin
+.PHONY : rotors_gazebo_bag_plugin
 
 # fast build rule for target.
-dynamic_reconfigure_generate_messages_nodejs/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
+rotors_gazebo_bag_plugin/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build
+.PHONY : rotors_gazebo_bag_plugin/fast
 
 #=============================================================================
-# Target rules for targets named tf_generate_messages_nodejs
+# Target rules for targets named mav_msgs
 
 # Build rule for target.
-tf_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_nodejs
-.PHONY : tf_generate_messages_nodejs
+mav_msgs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs
+.PHONY : mav_msgs
 
 # fast build rule for target.
-tf_generate_messages_nodejs/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build
-.PHONY : tf_generate_messages_nodejs/fast
+mav_msgs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build
+.PHONY : mav_msgs/fast
 
 #=============================================================================
-# Target rules for targets named rotors_gazebo_gps_plugin
+# Target rules for targets named nodelet_generate_messages_py
 
 # Build rule for target.
-rotors_gazebo_gps_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_gps_plugin
-.PHONY : rotors_gazebo_gps_plugin
+nodelet_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_py
+.PHONY : nodelet_generate_messages_py
 
 # fast build rule for target.
-rotors_gazebo_gps_plugin/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build
-.PHONY : rotors_gazebo_gps_plugin/fast
+nodelet_generate_messages_py/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build
+.PHONY : nodelet_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named gazebo_plugins_gencfg
+# Target rules for targets named bond_generate_messages_nodejs
 
 # Build rule for target.
-gazebo_plugins_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins_gencfg
-.PHONY : gazebo_plugins_gencfg
+bond_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_nodejs
+.PHONY : bond_generate_messages_nodejs
 
 # fast build rule for target.
-gazebo_plugins_gencfg/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build
-.PHONY : gazebo_plugins_gencfg/fast
+bond_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build
+.PHONY : bond_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named rotors_gazebo_magnetometer_plugin
+# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
 
 # Build rule for target.
-rotors_gazebo_magnetometer_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_magnetometer_plugin
-.PHONY : rotors_gazebo_magnetometer_plugin
+dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
 
 # fast build rule for target.
-rotors_gazebo_magnetometer_plugin/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build
-.PHONY : rotors_gazebo_magnetometer_plugin/fast
+dynamic_reconfigure_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named tf_generate_messages_lisp
+# Target rules for targets named nodelet_generate_messages_lisp
 
 # Build rule for target.
-tf_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
-.PHONY : tf_generate_messages_lisp
+nodelet_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_lisp
+.PHONY : nodelet_generate_messages_lisp
 
 # fast build rule for target.
-tf_generate_messages_lisp/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
+nodelet_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+.PHONY : nodelet_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named gazebo_geotagged_images_plugin
+# Target rules for targets named tf_generate_messages_cpp
 
 # Build rule for target.
-gazebo_geotagged_images_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_geotagged_images_plugin
-.PHONY : gazebo_geotagged_images_plugin
+tf_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_cpp
+.PHONY : tf_generate_messages_cpp
 
 # fast build rule for target.
-gazebo_geotagged_images_plugin/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build
-.PHONY : gazebo_geotagged_images_plugin/fast
+tf_generate_messages_cpp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build
+.PHONY : tf_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named nodelet_generate_messages_nodejs
+
+# Build rule for target.
+nodelet_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_nodejs
+.PHONY : nodelet_generate_messages_nodejs
+
+# fast build rule for target.
+nodelet_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+.PHONY : nodelet_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_py
+
+# Build rule for target.
+gazebo_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_py
+.PHONY : gazebo_msgs_generate_messages_py
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_py/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+.PHONY : gazebo_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named rotors_gazebo_fw_dynamics_plugin
+
+# Build rule for target.
+rotors_gazebo_fw_dynamics_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_fw_dynamics_plugin
+.PHONY : rotors_gazebo_fw_dynamics_plugin
+
+# fast build rule for target.
+rotors_gazebo_fw_dynamics_plugin/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build
+.PHONY : rotors_gazebo_fw_dynamics_plugin/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_eus
+
+# Build rule for target.
+std_srvs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_eus
+.PHONY : std_srvs_generate_messages_eus
+
+# fast build rule for target.
+std_srvs_generate_messages_eus/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named LiftDragPlugin
+
+# Build rule for target.
+LiftDragPlugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LiftDragPlugin
+.PHONY : LiftDragPlugin
+
+# fast build rule for target.
+LiftDragPlugin/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build
+.PHONY : LiftDragPlugin/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_cpp
+
+# Build rule for target.
+std_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named bond_generate_messages_cpp
@@ -2066,6 +2755,19 @@ nodelet_generate_messages_eus/fast:
 .PHONY : nodelet_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named topic_tools_generate_messages_lisp
 
 # Build rule for target.
@@ -2079,43 +2781,121 @@ topic_tools_generate_messages_lisp/fast:
 .PHONY : topic_tools_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named tf_generate_messages_cpp
+# Target rules for targets named gazebo_plugins_gencfg
 
 # Build rule for target.
-tf_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_cpp
-.PHONY : tf_generate_messages_cpp
+gazebo_plugins_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_plugins_gencfg
+.PHONY : gazebo_plugins_gencfg
 
 # fast build rule for target.
-tf_generate_messages_cpp/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
+gazebo_plugins_gencfg/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build
+.PHONY : gazebo_plugins_gencfg/fast
 
 #=============================================================================
-# Target rules for targets named nodelet_generate_messages_lisp
+# Target rules for targets named gazebo_msgs_generate_messages_eus
 
 # Build rule for target.
-nodelet_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_lisp
-.PHONY : nodelet_generate_messages_lisp
+gazebo_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_eus
+.PHONY : gazebo_msgs_generate_messages_eus
 
 # fast build rule for target.
-nodelet_generate_messages_lisp/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-.PHONY : nodelet_generate_messages_lisp/fast
+gazebo_msgs_generate_messages_eus/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+.PHONY : gazebo_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named bond_generate_messages_py
+# Target rules for targets named tf_generate_messages_py
 
 # Build rule for target.
-bond_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_py
-.PHONY : bond_generate_messages_py
+tf_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_py
+.PHONY : tf_generate_messages_py
 
 # fast build rule for target.
-bond_generate_messages_py/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build
-.PHONY : bond_generate_messages_py/fast
+tf_generate_messages_py/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build
+.PHONY : tf_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_nodejs
+
+# Build rule for target.
+gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_nodejs
+.PHONY : gazebo_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+.PHONY : gazebo_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_lisp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_lisp
+.PHONY : gazebo_msgs_generate_messages_lisp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+.PHONY : gazebo_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_eus
+
+# Build rule for target.
+bond_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_eus
+.PHONY : bond_generate_messages_eus
+
+# fast build rule for target.
+bond_generate_messages_eus/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build
+.PHONY : bond_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_nodejs
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_nodejs
+.PHONY : dynamic_reconfigure_generate_messages_nodejs
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_cpp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_cpp
+.PHONY : gazebo_msgs_generate_messages_cpp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+.PHONY : gazebo_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_lisp
+
+# Build rule for target.
+bond_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_lisp
+.PHONY : bond_generate_messages_lisp
+
+# fast build rule for target.
+bond_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build
+.PHONY : bond_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named nodelet_generate_messages_cpp
@@ -2131,30 +2911,95 @@ nodelet_generate_messages_cpp/fast:
 .PHONY : nodelet_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named rotors_gazebo_fw_dynamics_plugin
+# Target rules for targets named std_srvs_generate_messages_nodejs
 
 # Build rule for target.
-rotors_gazebo_fw_dynamics_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_fw_dynamics_plugin
-.PHONY : rotors_gazebo_fw_dynamics_plugin
+std_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
+.PHONY : std_srvs_generate_messages_nodejs
 
 # fast build rule for target.
-rotors_gazebo_fw_dynamics_plugin/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build
-.PHONY : rotors_gazebo_fw_dynamics_plugin/fast
+std_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named nodelet_generate_messages_nodejs
+# Target rules for targets named bond_generate_messages_py
 
 # Build rule for target.
-nodelet_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_nodejs
-.PHONY : nodelet_generate_messages_nodejs
+bond_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_py
+.PHONY : bond_generate_messages_py
 
 # fast build rule for target.
-nodelet_generate_messages_nodejs/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
-.PHONY : nodelet_generate_messages_nodejs/fast
+bond_generate_messages_py/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build
+.PHONY : bond_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named rotors_gazebo_magnetometer_plugin
+
+# Build rule for target.
+rotors_gazebo_magnetometer_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_magnetometer_plugin
+.PHONY : rotors_gazebo_magnetometer_plugin
+
+# fast build rule for target.
+rotors_gazebo_magnetometer_plugin/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build
+.PHONY : rotors_gazebo_magnetometer_plugin/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_geotagged_images_plugin
+
+# Build rule for target.
+gazebo_geotagged_images_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_geotagged_images_plugin
+.PHONY : gazebo_geotagged_images_plugin
+
+# fast build rule for target.
+gazebo_geotagged_images_plugin/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build
+.PHONY : gazebo_geotagged_images_plugin/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_lisp
+
+# Build rule for target.
+tf_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_lisp
+.PHONY : tf_generate_messages_lisp
+
+# fast build rule for target.
+tf_generate_messages_lisp/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rotors_gazebo_gps_plugin
+
+# Build rule for target.
+rotors_gazebo_gps_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_gps_plugin
+.PHONY : rotors_gazebo_gps_plugin
+
+# fast build rule for target.
+rotors_gazebo_gps_plugin/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build
+.PHONY : rotors_gazebo_gps_plugin/fast
+
+#=============================================================================
+# Target rules for targets named tf_generate_messages_nodejs
+
+# Build rule for target.
+tf_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf_generate_messages_nodejs
+.PHONY : tf_generate_messages_nodejs
+
+# fast build rule for target.
+tf_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build
+.PHONY : tf_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named topic_tools_generate_messages_cpp
@@ -2183,6 +3028,32 @@ dynamic_reconfigure_generate_messages_cpp/fast:
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named rotors_gazebo_lidar_plugin
+
+# Build rule for target.
+rotors_gazebo_lidar_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_lidar_plugin
+.PHONY : rotors_gazebo_lidar_plugin
+
+# fast build rule for target.
+rotors_gazebo_lidar_plugin/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build
+.PHONY : rotors_gazebo_lidar_plugin/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_nodejs
+
+# Build rule for target.
+topic_tools_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_nodejs
+.PHONY : topic_tools_generate_messages_nodejs
+
+# fast build rule for target.
+topic_tools_generate_messages_nodejs/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
+.PHONY : topic_tools_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named rotors_gazebo_multirotor_base_plugin
 
 # Build rule for target.
@@ -2209,19 +3080,6 @@ dynamic_reconfigure_generate_messages_eus/fast:
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named rotors_gazebo_controller_interface
-
-# Build rule for target.
-rotors_gazebo_controller_interface: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_controller_interface
-.PHONY : rotors_gazebo_controller_interface
-
-# fast build rule for target.
-rotors_gazebo_controller_interface/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build
-.PHONY : rotors_gazebo_controller_interface/fast
-
-#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_py
 
 # Build rule for target.
@@ -2233,58 +3091,6 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 dynamic_reconfigure_generate_messages_py/fast:
 	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named mav_msgs
-
-# Build rule for target.
-mav_msgs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs
-.PHONY : mav_msgs
-
-# fast build rule for target.
-mav_msgs/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build
-.PHONY : mav_msgs/fast
-
-#=============================================================================
-# Target rules for targets named topic_tools_generate_messages_eus
-
-# Build rule for target.
-topic_tools_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_eus
-.PHONY : topic_tools_generate_messages_eus
-
-# fast build rule for target.
-topic_tools_generate_messages_eus/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build
-.PHONY : topic_tools_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named rotors_gazebo_bag_plugin
-
-# Build rule for target.
-rotors_gazebo_bag_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_bag_plugin
-.PHONY : rotors_gazebo_bag_plugin
-
-# fast build rule for target.
-rotors_gazebo_bag_plugin/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build
-.PHONY : rotors_gazebo_bag_plugin/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_gencfg
-
-# Build rule for target.
-dynamic_reconfigure_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
 # Target rules for targets named topic_tools_generate_messages_py
@@ -2300,30 +3106,30 @@ topic_tools_generate_messages_py/fast:
 .PHONY : topic_tools_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named topic_tools_generate_messages_nodejs
+# Target rules for targets named dynamic_reconfigure_gencfg
 
 # Build rule for target.
-topic_tools_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_nodejs
-.PHONY : topic_tools_generate_messages_nodejs
+dynamic_reconfigure_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
+.PHONY : dynamic_reconfigure_gencfg
 
 # fast build rule for target.
-topic_tools_generate_messages_nodejs/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
-.PHONY : topic_tools_generate_messages_nodejs/fast
+dynamic_reconfigure_gencfg/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
-# Target rules for targets named rotors_gazebo_lidar_plugin
+# Target rules for targets named topic_tools_generate_messages_eus
 
 # Build rule for target.
-rotors_gazebo_lidar_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rotors_gazebo_lidar_plugin
-.PHONY : rotors_gazebo_lidar_plugin
+topic_tools_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_eus
+.PHONY : topic_tools_generate_messages_eus
 
 # fast build rule for target.
-rotors_gazebo_lidar_plugin/fast:
-	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build
-.PHONY : rotors_gazebo_lidar_plugin/fast
+topic_tools_generate_messages_eus/fast:
+	$(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build
+.PHONY : topic_tools_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named waypoint_publisher
@@ -2400,13 +3206,40 @@ help:
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... _catkin_empty_exported_target"
+	@echo "... mav_state_machine_msgs_genpy"
+	@echo "... mav_state_machine_msgs_generate_messages"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... _mav_state_machine_msgs_generate_messages_check_deps_RunTaskService"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... mav_state_machine_msgs_geneus"
+	@echo "... mav_state_machine_msgs_gencpp"
+	@echo "... mav_state_machine_msgs_generate_messages_py"
+	@echo "... mav_state_machine_msgs_generate_messages_nodejs"
+	@echo "... _mav_state_machine_msgs_generate_messages_check_deps_StartStopTask"
+	@echo "... mav_state_machine_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_eus"
+	@echo "... mav_state_machine_msgs_generate_messages_eus"
+	@echo "... mav_state_machine_msgs_genlisp"
+	@echo "... mav_state_machine_msgs_generate_messages_cpp"
+	@echo "... mav_state_machine_msgs_gennodejs"
+	@echo "... mav_system_msgs_generate_messages_eus"
+	@echo "... mav_system_msgs_gencpp"
+	@echo "... _mav_system_msgs_generate_messages_check_deps_ProcessInfo"
+	@echo "... mav_system_msgs_gennodejs"
+	@echo "... mav_system_msgs_generate_messages"
+	@echo "... mav_system_msgs_generate_messages_cpp"
+	@echo "... _mav_system_msgs_generate_messages_check_deps_CpuInfo"
+	@echo "... mav_system_msgs_generate_messages_lisp"
+	@echo "... mav_system_msgs_generate_messages_nodejs"
+	@echo "... mav_system_msgs_geneus"
+	@echo "... mav_system_msgs_genlisp"
+	@echo "... mav_system_msgs_generate_messages_py"
+	@echo "... mav_system_msgs_genpy"
 	@echo "... rotors_comm_gennodejs"
 	@echo "... rotors_comm_generate_messages_lisp"
-	@echo "... _rotors_comm_generate_messages_check_deps_WindSpeed"
-	@echo "... _rotors_comm_generate_messages_check_deps_Octomap"
-	@echo "... rotors_comm_gencpp"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... rotors_comm_geneus"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... rotors_comm_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_cpp"
@@ -2414,71 +3247,96 @@ help:
 	@echo "... rotors_comm_genlisp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... _rotors_comm_generate_messages_check_deps_RecordRosbag"
-	@echo "... std_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... rotors_comm_genpy"
 	@echo "... octomap_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... rotors_comm_geneus"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... octomap_msgs_generate_messages_lisp"
+	@echo "... rotors_comm_gencpp"
 	@echo "... octomap_msgs_generate_messages_py"
+	@echo "... _rotors_comm_generate_messages_check_deps_Octomap"
 	@echo "... rotors_comm_generate_messages_py"
-	@echo "... rotors_comm_generate_messages_cpp"
 	@echo "... rotors_comm_generate_messages"
-	@echo "... control"
-	@echo "... std_srvs_generate_messages_py"
-	@echo "... std_srvs_generate_messages_nodejs"
-	@echo "... std_srvs_generate_messages_lisp"
-	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... std_srvs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... gazebo_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_py"
+	@echo "... rotors_comm_generate_messages_cpp"
+	@echo "... _rotors_comm_generate_messages_check_deps_RecordRosbag"
+	@echo "... _rotors_comm_generate_messages_check_deps_WindSpeed"
+	@echo "... mav_msgs_geneus"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... mav_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... std_srvs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_nodejs"
-	@echo "... gazebo_msgs_generate_messages_nodejs"
-	@echo "... gazebo_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... nav_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... trajectory_msgs_generate_messages_py"
+	@echo "... _mav_msgs_generate_messages_check_deps_FilteredSensorData"
+	@echo "... _mav_msgs_generate_messages_check_deps_RateThrust"
 	@echo "... nav_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_eus"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... mav_msgs_generate_messages_eus"
-	@echo "... mav_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... mav_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... gazebo_msgs_generate_messages_eus"
-	@echo "... nav_msgs_generate_messages_cpp"
-	@echo "... gazebo_msgs_generate_messages_cpp"
-	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_nodejs"
-	@echo "... actionlib_msgs_generate_messages_eus"
-	@echo "... mav_msgs_generate_messages_cpp"
+	@echo "... mav_msgs_genpy"
+	@echo "... nav_msgs_generate_messages_lisp"
+	@echo "... nav_msgs_generate_messages_eus"
+	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... roll_pitch_yawrate_thrust_controller"
-	@echo "... roll_pitch_yawrate_thrust_controller_node"
+	@echo "... mav_msgs_generate_messages_cpp"
+	@echo "... actionlib_msgs_generate_messages_eus"
+	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... _mav_msgs_generate_messages_check_deps_GpsWaypoint"
+	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... mav_msgs_gencpp"
+	@echo "... _mav_msgs_generate_messages_check_deps_Actuators"
+	@echo "... trajectory_msgs_generate_messages_nodejs"
+	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... mav_msgs_generate_messages_lisp"
+	@echo "... mav_msgs_generate_messages"
+	@echo "... nav_msgs_generate_messages_cpp"
+	@echo "... _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... _mav_msgs_generate_messages_check_deps_TorqueThrust"
+	@echo "... _mav_msgs_generate_messages_check_deps_Status"
+	@echo "... _mav_msgs_generate_messages_check_deps_AttitudeThrust"
+	@echo "... mav_msgs_generate_messages_eus"
+	@echo "... mav_msgs_genlisp"
+	@echo "... mav_msgs_generate_messages_nodejs"
+	@echo "... mav_msgs_gennodejs"
+	@echo "... mav_msgs_generate_messages_py"
+	@echo "... mav_planning_msgs_gennodejs"
+	@echo "... mav_planning_msgs_generate_messages_nodejs"
+	@echo "... mav_planning_msgs_generate_messages_eus"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolygonService"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... mav_planning_msgs_generate_messages_cpp"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... mav_planning_msgs_genlisp"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_ChangeNameService"
+	@echo "... mav_planning_msgs_generate_messages_py"
+	@echo "... mav_planning_msgs_geneus"
+	@echo "... mav_planning_msgs_gencpp"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... mav_planning_msgs_genpy"
+	@echo "... mav_planning_msgs_generate_messages_lisp"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_Point2D"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PlannerService"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D"
+	@echo "... mav_planning_msgs_generate_messages"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolygonWithHolesStamped"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_Polygon2D"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... roscpp_generate_messages_eus"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... roscpp_generate_messages_lisp"
 	@echo "... lee_position_controller"
+	@echo "... roll_pitch_yawrate_thrust_controller"
 	@echo "... lee_position_controller_node"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... roll_pitch_yawrate_thrust_controller_node"
 	@echo "... rotors_joy_interface"
 	@echo "... mavros_msgs_generate_messages_nodejs"
 	@echo "... mavros_msgs_generate_messages_py"
@@ -2512,50 +3370,60 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_eus"
 	@echo "... diagnostic_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_py"
-	@echo "... LiftDragPlugin"
 	@echo "... rotors_gazebo_wind_plugin"
 	@echo "... rotors_gazebo_ros_interface_plugin"
 	@echo "... rotors_gazebo_pressure_plugin"
 	@echo "... rotors_gazebo_odometry_plugin"
 	@echo "... rotors_gazebo_motor_model"
-	@echo "... bond_generate_messages_nodejs"
-	@echo "... nodelet_generate_messages_py"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... tf_generate_messages_py"
 	@echo "... rotors_gazebo_noisydepth_plugin"
-	@echo "... bond_generate_messages_lisp"
 	@echo "... rotors_gazebo_imu_plugin"
-	@echo "... bond_generate_messages_eus"
-	@echo "... dynamic_reconfigure_generate_messages_nodejs"
-	@echo "... tf_generate_messages_nodejs"
-	@echo "... rotors_gazebo_gps_plugin"
-	@echo "... gazebo_plugins_gencfg"
-	@echo "... rotors_gazebo_magnetometer_plugin"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... gazebo_geotagged_images_plugin"
+	@echo "... rotors_gazebo_controller_interface"
+	@echo "... rotors_gazebo_bag_plugin"
+	@echo "... mav_msgs"
+	@echo "... nodelet_generate_messages_py"
+	@echo "... bond_generate_messages_nodejs"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... nodelet_generate_messages_lisp"
+	@echo "... tf_generate_messages_cpp"
+	@echo "... nodelet_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_py"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... rotors_gazebo_fw_dynamics_plugin"
+	@echo "... std_srvs_generate_messages_eus"
+	@echo "... LiftDragPlugin"
+	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... bond_generate_messages_cpp"
 	@echo "... tf_generate_messages_eus"
 	@echo "... nodelet_generate_messages_eus"
+	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... topic_tools_generate_messages_lisp"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... nodelet_generate_messages_lisp"
-	@echo "... bond_generate_messages_py"
+	@echo "... gazebo_plugins_gencfg"
+	@echo "... gazebo_msgs_generate_messages_eus"
+	@echo "... tf_generate_messages_py"
+	@echo "... gazebo_msgs_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... bond_generate_messages_eus"
+	@echo "... dynamic_reconfigure_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_cpp"
+	@echo "... bond_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_cpp"
-	@echo "... rotors_gazebo_fw_dynamics_plugin"
-	@echo "... nodelet_generate_messages_nodejs"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... bond_generate_messages_py"
+	@echo "... rotors_gazebo_magnetometer_plugin"
+	@echo "... gazebo_geotagged_images_plugin"
+	@echo "... tf_generate_messages_lisp"
+	@echo "... rotors_gazebo_gps_plugin"
+	@echo "... tf_generate_messages_nodejs"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... rotors_gazebo_lidar_plugin"
+	@echo "... topic_tools_generate_messages_nodejs"
 	@echo "... rotors_gazebo_multirotor_base_plugin"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
-	@echo "... rotors_gazebo_controller_interface"
 	@echo "... dynamic_reconfigure_generate_messages_py"
-	@echo "... mav_msgs"
-	@echo "... topic_tools_generate_messages_eus"
-	@echo "... rotors_gazebo_bag_plugin"
-	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... topic_tools_generate_messages_py"
-	@echo "... topic_tools_generate_messages_nodejs"
-	@echo "... rotors_gazebo_lidar_plugin"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... topic_tools_generate_messages_eus"
 	@echo "... waypoint_publisher"
 	@echo "... sdf"
 	@echo "... waypoint_publisher_file"

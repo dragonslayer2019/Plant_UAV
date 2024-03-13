@@ -6,5 +6,6 @@
     "python.analysis.extraPaths": [
         "/home/alan/Plant_UAV/devel/lib/python2.7/dist-packages",
         "/opt/ros/melodic/lib/python2.7/dist-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/alan/Plant_UAV/build/catkin_generated/metapackages/rotors_simulator"
 }

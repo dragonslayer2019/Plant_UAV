@@ -7,11 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/alan/Plant_UAV/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/alan/Plant_UAV/devel/lib:$LD_LIBRARY_PATH"
-export PATH="/home/alan/Plant_UAV/devel/bin:$PATH"
-export PKG_CONFIG_PATH="/home/alan/Plant_UAV/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/alan/Plant_UAV/build'
-export PYTHONPATH="/home/alan/Plant_UAV/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/alan/Plant_UAV/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/alan/Plant_UAV/src:$ROS_PACKAGE_PATH"

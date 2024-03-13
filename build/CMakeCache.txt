@@ -764,12 +764,6 @@ class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
 //The directory containing a CMake configuration file for cmake_modules.
 cmake_modules_DIR:PATH=/opt/ros/melodic/share/cmake_modules/cmake
 
-//Value Computed by CMake
-control_BINARY_DIR:STATIC=/home/alan/Plant_UAV/build/control
-
-//Value Computed by CMake
-control_SOURCE_DIR:STATIC=/home/alan/Plant_UAV/src/control
-
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
@@ -912,11 +906,41 @@ lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 //The directory containing a CMake configuration file for libmavconn.
 libmavconn_DIR:PATH=/opt/ros/melodic/share/libmavconn/cmake
 
+//Value Computed by CMake
+mav_comm_BINARY_DIR:STATIC=/home/alan/Plant_UAV/build/mav_comm/mav_comm
+
+//Value Computed by CMake
+mav_comm_SOURCE_DIR:STATIC=/home/alan/Plant_UAV/src/mav_comm/mav_comm
+
+//Value Computed by CMake
+mav_msgs_BINARY_DIR:STATIC=/home/alan/Plant_UAV/build/mav_comm/mav_msgs
+
 //The directory containing a CMake configuration file for mav_msgs.
-mav_msgs_DIR:PATH=/home/alan/fly_ws/devel/share/mav_msgs/cmake
+mav_msgs_DIR:PATH=/home/alan/Plant_UAV/devel/share/mav_msgs/cmake
 
 //Dependencies for the target
 mav_msgs_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;gazebo_msgs;
+
+//Value Computed by CMake
+mav_msgs_SOURCE_DIR:STATIC=/home/alan/Plant_UAV/src/mav_comm/mav_msgs
+
+//Value Computed by CMake
+mav_planning_msgs_BINARY_DIR:STATIC=/home/alan/Plant_UAV/build/mav_comm/mav_planning_msgs
+
+//Value Computed by CMake
+mav_planning_msgs_SOURCE_DIR:STATIC=/home/alan/Plant_UAV/src/mav_comm/mav_planning_msgs
+
+//Value Computed by CMake
+mav_state_machine_msgs_BINARY_DIR:STATIC=/home/alan/Plant_UAV/build/mav_comm/mav_state_machine_msgs
+
+//Value Computed by CMake
+mav_state_machine_msgs_SOURCE_DIR:STATIC=/home/alan/Plant_UAV/src/mav_comm/mav_state_machine_msgs
+
+//Value Computed by CMake
+mav_system_msgs_BINARY_DIR:STATIC=/home/alan/Plant_UAV/build/mav_comm/mav_system_msgs
+
+//Value Computed by CMake
+mav_system_msgs_SOURCE_DIR:STATIC=/home/alan/Plant_UAV/src/mav_comm/mav_system_msgs
 
 //The directory containing a CMake configuration file for mavros.
 mavros_DIR:PATH=/opt/ros/melodic/share/mavros/cmake
@@ -1482,7 +1506,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

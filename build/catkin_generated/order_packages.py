@@ -2,4 +2,4 @@
 source_root_dir = '/home/alan/Plant_UAV/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/alan/fly_ws/devel;/opt/ros/melodic'.split(';') if '/home/alan/fly_ws/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/home/alan/Plant_UAV/devel;/opt/ros/melodic'.split(';') if '/home/alan/Plant_UAV/devel;/opt/ros/melodic' != '' else []

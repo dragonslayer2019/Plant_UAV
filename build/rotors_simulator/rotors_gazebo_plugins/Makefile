@@ -168,21 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule
-
-# Convenience name for target.
-LiftDragPlugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule
-
-.PHONY : LiftDragPlugin
-
-# fast build rule for target.
-LiftDragPlugin/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build
-.PHONY : LiftDragPlugin/fast
-
-# Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/rule:
 	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/rule
 .PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/rule
@@ -258,66 +243,6 @@ rotors_gazebo_motor_model/fast:
 .PHONY : rotors_gazebo_motor_model/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-
-.PHONY : bond_generate_messages_nodejs
-
-# fast build rule for target.
-bond_generate_messages_nodejs/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build
-.PHONY : bond_generate_messages_nodejs/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-.PHONY : nodelet_generate_messages_py
-
-# fast build rule for target.
-nodelet_generate_messages_py/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build
-.PHONY : nodelet_generate_messages_py/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
-
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
-
-# Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_noisydepth_plugin.dir/rule:
 	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_noisydepth_plugin.dir/rule
 .PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_noisydepth_plugin.dir/rule
@@ -331,21 +256,6 @@ rotors_gazebo_noisydepth_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFil
 rotors_gazebo_noisydepth_plugin/fast:
 	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_noisydepth_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_noisydepth_plugin.dir/build
 .PHONY : rotors_gazebo_noisydepth_plugin/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule
-
-.PHONY : bond_generate_messages_lisp
-
-# fast build rule for target.
-bond_generate_messages_lisp/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build
-.PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/rule:
@@ -363,124 +273,229 @@ rotors_gazebo_imu_plugin/fast:
 .PHONY : rotors_gazebo_imu_plugin/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule
 
 # Convenience name for target.
-bond_generate_messages_eus: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule
+rotors_gazebo_controller_interface: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule
 
-.PHONY : bond_generate_messages_eus
+.PHONY : rotors_gazebo_controller_interface
 
 # fast build rule for target.
-bond_generate_messages_eus/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build
-.PHONY : bond_generate_messages_eus/fast
+rotors_gazebo_controller_interface/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build
+.PHONY : rotors_gazebo_controller_interface/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule
 
 # Convenience name for target.
-dynamic_reconfigure_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+rotors_gazebo_bag_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule
 
-.PHONY : dynamic_reconfigure_generate_messages_nodejs
+.PHONY : rotors_gazebo_bag_plugin
 
 # fast build rule for target.
-dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
+rotors_gazebo_bag_plugin/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build
+.PHONY : rotors_gazebo_bag_plugin/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule
 
 # Convenience name for target.
-tf_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+mav_msgs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule
 
-.PHONY : tf_generate_messages_nodejs
+.PHONY : mav_msgs
 
 # fast build rule for target.
-tf_generate_messages_nodejs/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build
-.PHONY : tf_generate_messages_nodejs/fast
+mav_msgs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build
+.PHONY : mav_msgs/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rotors_gazebo_gps_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule
+nodelet_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
-.PHONY : rotors_gazebo_gps_plugin
+.PHONY : nodelet_generate_messages_py
 
 # fast build rule for target.
-rotors_gazebo_gps_plugin/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build
-.PHONY : rotors_gazebo_gps_plugin/fast
+nodelet_generate_messages_py/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_py.dir/build
+.PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-gazebo_plugins_gencfg: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule
+bond_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
-.PHONY : gazebo_plugins_gencfg
+.PHONY : bond_generate_messages_nodejs
 
 # fast build rule for target.
-gazebo_plugins_gencfg/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build
-.PHONY : gazebo_plugins_gencfg/fast
+bond_generate_messages_nodejs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_nodejs.dir/build
+.PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rotors_gazebo_magnetometer_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule
+dynamic_reconfigure_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
-.PHONY : rotors_gazebo_magnetometer_plugin
+.PHONY : dynamic_reconfigure_generate_messages_lisp
 
 # fast build rule for target.
-rotors_gazebo_magnetometer_plugin/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build
-.PHONY : rotors_gazebo_magnetometer_plugin/fast
+dynamic_reconfigure_generate_messages_lisp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-tf_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
+nodelet_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
-.PHONY : tf_generate_messages_lisp
+.PHONY : nodelet_generate_messages_lisp
 
 # fast build rule for target.
-tf_generate_messages_lisp/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
+nodelet_generate_messages_lisp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+.PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-gazebo_geotagged_images_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule
+tf_generate_messages_cpp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
-.PHONY : gazebo_geotagged_images_plugin
+.PHONY : tf_generate_messages_cpp
 
 # fast build rule for target.
-gazebo_geotagged_images_plugin/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build
-.PHONY : gazebo_geotagged_images_plugin/fast
+tf_generate_messages_cpp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build
+.PHONY : tf_generate_messages_cpp/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+
+.PHONY : nodelet_generate_messages_nodejs
+
+# fast build rule for target.
+nodelet_generate_messages_nodejs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+.PHONY : nodelet_generate_messages_nodejs/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_py
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_py/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+.PHONY : gazebo_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule
+
+# Convenience name for target.
+rotors_gazebo_fw_dynamics_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule
+
+.PHONY : rotors_gazebo_fw_dynamics_plugin
+
+# fast build rule for target.
+rotors_gazebo_fw_dynamics_plugin/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build
+.PHONY : rotors_gazebo_fw_dynamics_plugin/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_eus: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+.PHONY : std_srvs_generate_messages_eus
+
+# fast build rule for target.
+std_srvs_generate_messages_eus/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+.PHONY : std_srvs_generate_messages_eus/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule
+
+# Convenience name for target.
+LiftDragPlugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/rule
+
+.PHONY : LiftDragPlugin
+
+# fast build rule for target.
+LiftDragPlugin/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/LiftDragPlugin.dir/build
+.PHONY : LiftDragPlugin/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_cpp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_cpp.dir/rule:
@@ -528,6 +543,21 @@ nodelet_generate_messages_eus/fast:
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+# Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule:
 	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
 .PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
@@ -543,49 +573,139 @@ topic_tools_generate_messages_lisp/fast:
 .PHONY : topic_tools_generate_messages_lisp/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule
 
 # Convenience name for target.
-tf_generate_messages_cpp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/rule
+gazebo_plugins_gencfg: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/rule
 
-.PHONY : tf_generate_messages_cpp
+.PHONY : gazebo_plugins_gencfg
 
 # fast build rule for target.
-tf_generate_messages_cpp/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
+gazebo_plugins_gencfg/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_plugins_gencfg.dir/build
+.PHONY : gazebo_plugins_gencfg/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-nodelet_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+gazebo_msgs_generate_messages_eus: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
-.PHONY : nodelet_generate_messages_lisp
+.PHONY : gazebo_msgs_generate_messages_eus
 
 # fast build rule for target.
-nodelet_generate_messages_lisp/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-.PHONY : nodelet_generate_messages_lisp/fast
+gazebo_msgs_generate_messages_eus/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+.PHONY : gazebo_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
-bond_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule
+tf_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/rule
 
-.PHONY : bond_generate_messages_py
+.PHONY : tf_generate_messages_py
 
 # fast build rule for target.
-bond_generate_messages_py/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build
-.PHONY : bond_generate_messages_py/fast
+tf_generate_messages_py/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build
+.PHONY : tf_generate_messages_py/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_nodejs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+.PHONY : gazebo_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_lisp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_lisp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+.PHONY : gazebo_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_eus: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/rule
+
+.PHONY : bond_generate_messages_eus
+
+# fast build rule for target.
+bond_generate_messages_eus/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_eus.dir/build
+.PHONY : bond_generate_messages_eus/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_nodejs
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_nodejs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+gazebo_msgs_generate_messages_cpp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : gazebo_msgs_generate_messages_cpp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_cpp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+.PHONY : gazebo_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+.PHONY : bond_generate_messages_lisp
+
+# fast build rule for target.
+bond_generate_messages_lisp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_lisp.dir/build
+.PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
@@ -603,34 +723,109 @@ nodelet_generate_messages_cpp/fast:
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-rotors_gazebo_fw_dynamics_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/rule
+std_srvs_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
-.PHONY : rotors_gazebo_fw_dynamics_plugin
+.PHONY : std_srvs_generate_messages_nodejs
 
 # fast build rule for target.
-rotors_gazebo_fw_dynamics_plugin/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_fw_dynamics_plugin.dir/build
-.PHONY : rotors_gazebo_fw_dynamics_plugin/fast
+std_srvs_generate_messages_nodejs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
-nodelet_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+bond_generate_messages_py: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/rule
 
-.PHONY : nodelet_generate_messages_nodejs
+.PHONY : bond_generate_messages_py
 
 # fast build rule for target.
-nodelet_generate_messages_nodejs/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
-.PHONY : nodelet_generate_messages_nodejs/fast
+bond_generate_messages_py/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/bond_generate_messages_py.dir/build
+.PHONY : bond_generate_messages_py/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule
+
+# Convenience name for target.
+rotors_gazebo_magnetometer_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/rule
+
+.PHONY : rotors_gazebo_magnetometer_plugin
+
+# fast build rule for target.
+rotors_gazebo_magnetometer_plugin/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/build
+.PHONY : rotors_gazebo_magnetometer_plugin/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule
+
+# Convenience name for target.
+gazebo_geotagged_images_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/rule
+
+.PHONY : gazebo_geotagged_images_plugin
+
+# fast build rule for target.
+gazebo_geotagged_images_plugin/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/gazebo_geotagged_images_plugin.dir/build
+.PHONY : gazebo_geotagged_images_plugin/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_lisp: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/rule
+
+.PHONY : tf_generate_messages_lisp
+
+# fast build rule for target.
+tf_generate_messages_lisp/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule
+
+# Convenience name for target.
+rotors_gazebo_gps_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/rule
+
+.PHONY : rotors_gazebo_gps_plugin
+
+# fast build rule for target.
+rotors_gazebo_gps_plugin/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_gps_plugin.dir/build
+.PHONY : rotors_gazebo_gps_plugin/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+
+.PHONY : tf_generate_messages_nodejs
+
+# fast build rule for target.
+tf_generate_messages_nodejs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/tf_generate_messages_nodejs.dir/build
+.PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule:
@@ -663,6 +858,36 @@ dynamic_reconfigure_generate_messages_cpp/fast:
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule
+
+# Convenience name for target.
+rotors_gazebo_lidar_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule
+
+.PHONY : rotors_gazebo_lidar_plugin
+
+# fast build rule for target.
+rotors_gazebo_lidar_plugin/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build
+.PHONY : rotors_gazebo_lidar_plugin/fast
+
+# Convenience name for target.
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+topic_tools_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+
+.PHONY : topic_tools_generate_messages_nodejs
+
+# fast build rule for target.
+topic_tools_generate_messages_nodejs/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
+.PHONY : topic_tools_generate_messages_nodejs/fast
+
+# Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/rule:
 	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/rule
 .PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/rule
@@ -693,21 +918,6 @@ dynamic_reconfigure_generate_messages_eus/fast:
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule
-
-# Convenience name for target.
-rotors_gazebo_controller_interface: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/rule
-
-.PHONY : rotors_gazebo_controller_interface
-
-# fast build rule for target.
-rotors_gazebo_controller_interface/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/build
-.PHONY : rotors_gazebo_controller_interface/fast
-
-# Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
 	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
@@ -721,66 +931,6 @@ dynamic_reconfigure_generate_messages_py: rotors_simulator/rotors_gazebo_plugins
 dynamic_reconfigure_generate_messages_py/fast:
 	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule
-
-# Convenience name for target.
-mav_msgs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/rule
-
-.PHONY : mav_msgs
-
-# fast build rule for target.
-mav_msgs/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build
-.PHONY : mav_msgs/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_eus: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-
-.PHONY : topic_tools_generate_messages_eus
-
-# fast build rule for target.
-topic_tools_generate_messages_eus/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build
-.PHONY : topic_tools_generate_messages_eus/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule
-
-# Convenience name for target.
-rotors_gazebo_bag_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/rule
-
-.PHONY : rotors_gazebo_bag_plugin
-
-# fast build rule for target.
-rotors_gazebo_bag_plugin/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/build
-.PHONY : rotors_gazebo_bag_plugin/fast
-
-# Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_py.dir/rule:
@@ -798,34 +948,34 @@ topic_tools_generate_messages_py/fast:
 .PHONY : topic_tools_generate_messages_py/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
-topic_tools_generate_messages_nodejs: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
+dynamic_reconfigure_gencfg: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
-.PHONY : topic_tools_generate_messages_nodejs
+.PHONY : dynamic_reconfigure_gencfg
 
 # fast build rule for target.
-topic_tools_generate_messages_nodejs/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
-.PHONY : topic_tools_generate_messages_nodejs/fast
+dynamic_reconfigure_gencfg/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule
-.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f CMakeFiles/Makefile2 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
+.PHONY : rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rotors_gazebo_lidar_plugin: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/rule
+topic_tools_generate_messages_eus: rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
 
-.PHONY : rotors_gazebo_lidar_plugin
+.PHONY : topic_tools_generate_messages_eus
 
 # fast build rule for target.
-rotors_gazebo_lidar_plugin/fast:
-	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_lidar_plugin.dir/build
-.PHONY : rotors_gazebo_lidar_plugin/fast
+topic_tools_generate_messages_eus/fast:
+	cd /home/alan/Plant_UAV/build && $(MAKE) -f rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make rotors_simulator/rotors_gazebo_plugins/CMakeFiles/topic_tools_generate_messages_eus.dir/build
+.PHONY : topic_tools_generate_messages_eus/fast
 
 Actuators.pb.o: Actuators.pb.cc.o
 
@@ -2107,52 +2257,62 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... LiftDragPlugin"
 	@echo "... rotors_gazebo_wind_plugin"
 	@echo "... rotors_gazebo_ros_interface_plugin"
 	@echo "... rotors_gazebo_pressure_plugin"
 	@echo "... list_install_components"
 	@echo "... rotors_gazebo_odometry_plugin"
 	@echo "... rotors_gazebo_motor_model"
-	@echo "... bond_generate_messages_nodejs"
-	@echo "... nodelet_generate_messages_py"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... tf_generate_messages_py"
 	@echo "... rotors_gazebo_noisydepth_plugin"
-	@echo "... bond_generate_messages_lisp"
 	@echo "... rotors_gazebo_imu_plugin"
-	@echo "... bond_generate_messages_eus"
-	@echo "... dynamic_reconfigure_generate_messages_nodejs"
-	@echo "... tf_generate_messages_nodejs"
-	@echo "... rotors_gazebo_gps_plugin"
-	@echo "... gazebo_plugins_gencfg"
-	@echo "... rotors_gazebo_magnetometer_plugin"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... gazebo_geotagged_images_plugin"
+	@echo "... rotors_gazebo_controller_interface"
+	@echo "... rotors_gazebo_bag_plugin"
+	@echo "... mav_msgs"
+	@echo "... nodelet_generate_messages_py"
+	@echo "... bond_generate_messages_nodejs"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... nodelet_generate_messages_lisp"
+	@echo "... tf_generate_messages_cpp"
+	@echo "... nodelet_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_py"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... install/local"
+	@echo "... rotors_gazebo_fw_dynamics_plugin"
+	@echo "... std_srvs_generate_messages_eus"
+	@echo "... LiftDragPlugin"
+	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... bond_generate_messages_cpp"
 	@echo "... tf_generate_messages_eus"
 	@echo "... nodelet_generate_messages_eus"
+	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... topic_tools_generate_messages_lisp"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... nodelet_generate_messages_lisp"
-	@echo "... bond_generate_messages_py"
+	@echo "... gazebo_plugins_gencfg"
+	@echo "... gazebo_msgs_generate_messages_eus"
+	@echo "... tf_generate_messages_py"
+	@echo "... gazebo_msgs_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... bond_generate_messages_eus"
+	@echo "... dynamic_reconfigure_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_cpp"
+	@echo "... bond_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_cpp"
-	@echo "... install/local"
-	@echo "... rotors_gazebo_fw_dynamics_plugin"
-	@echo "... nodelet_generate_messages_nodejs"
+	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... bond_generate_messages_py"
+	@echo "... rotors_gazebo_magnetometer_plugin"
+	@echo "... gazebo_geotagged_images_plugin"
+	@echo "... tf_generate_messages_lisp"
+	@echo "... rotors_gazebo_gps_plugin"
+	@echo "... tf_generate_messages_nodejs"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... rotors_gazebo_lidar_plugin"
+	@echo "... topic_tools_generate_messages_nodejs"
 	@echo "... rotors_gazebo_multirotor_base_plugin"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
-	@echo "... rotors_gazebo_controller_interface"
 	@echo "... dynamic_reconfigure_generate_messages_py"
-	@echo "... mav_msgs"
-	@echo "... topic_tools_generate_messages_eus"
-	@echo "... rotors_gazebo_bag_plugin"
-	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... topic_tools_generate_messages_py"
-	@echo "... topic_tools_generate_messages_nodejs"
-	@echo "... rotors_gazebo_lidar_plugin"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... topic_tools_generate_messages_eus"
 	@echo "... Actuators.pb.o"
 	@echo "... Actuators.pb.i"
 	@echo "... Actuators.pb.s"

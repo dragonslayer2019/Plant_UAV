@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/alan/Plant_UAV/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
+
 /home/alan/Plant_UAV/src/rotors_simulator/rotors_gazebo_plugins/include/rotors_gazebo_plugins/common.h
 Eigen/Dense
 -
@@ -43,8 +45,6 @@ mav_msgs/default_topics.h
 -
 ConnectGazeboToRosTopic.pb.h
 /home/alan/Plant_UAV/src/rotors_simulator/rotors_gazebo_plugins/src/ConnectGazeboToRosTopic.pb.h
-
-/home/alan/fly_ws/src/mav_comm/mav_msgs/include/mav_msgs/default_topics.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core
